@@ -187,8 +187,6 @@ List<FlexTeacher> list = flexTeacherMapper.selectByExample(flexTeacherExample);
 ## 附
 mybatis generator 更多的插件的请参考: [这里](http://www.mybatis.org/generator/reference/plugins.html)
 
-若你平常时，有一些自己认为比较有意思的插件，欢迎将其提交到 https://svn.yy.com/web/gh/mybatis-generator-plugins
-
 更完美的例子:
 
 http://git.oschina.net/free/Mybatis_PageHelper
