@@ -27,6 +27,8 @@ public class DeleteExistedXmlPlugin extends PluginAdapter {
             Boolean flag = xmlFile.delete();
             if (flag) {
                 System.out.println("delete " + xmlFilePaht);
+            } else {
+                System.out.println("don't delete " + xmlFilePaht);
             }
         }
 
